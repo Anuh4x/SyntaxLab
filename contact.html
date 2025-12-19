@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Syntax Lab — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Syntax Lab</a>
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="plans.html">Our Plans</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button id="burger3" class="burger" aria-label="menu">☰</button>
+    </div>
+    <nav id="mobileNav3" class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="plans.html">Our Plans</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+    <section class="glass contact-grid">
+      <div>
+        <h1>Contact Us</h1>
+        <p class="lead">Tell us about your project and timeline. We respond within 1-2 business days.</p>
+
+        <ul class="contact-info">
+          <li><strong>Email:</strong> hello@syntaxlab.example</li>
+          <li><strong>Phone:</strong> +1 (555) 012-3456</li>
+        </ul>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <label>
+          Your name
+          <input name="name" type="text" placeholder="Jane Doe" required>
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" placeholder="you@company.com" required>
+        </label>
+
+        <label>
+          Project summary
+          <textarea name="message" placeholder="A few lines about the project" rows="6" required></textarea>
+        </label>
+
+        <div class="form-row">
+          <button type="submit" class="btn primary">Send message</button>
+          <button type="reset" class="btn ghost">Reset</button>
+        </div>
+
+        <div id="formMsg" class="form-msg" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <strong>Syntax Lab</strong></div>
+      <div><a href="contact.html">hello@syntaxlab.example</a></div>
+    </div>
+  </footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

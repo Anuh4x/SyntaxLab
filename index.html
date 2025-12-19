@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Syntax Lab — Web Design & Meta Ads</title>
+
+  <!-- Inter font (clean sans-serif, matches the analyzed site feel) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="cursor-glow"></div>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Syntax Lab</a>
+
+      <nav class="desktop-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="plans.html">Our Plans</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button id="burger" class="burger" aria-label="menu">☰</button>
+    </div>
+
+    <nav id="mobileNav" class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="plans.html">Our Plans</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left glass">
+          <h1>Beautiful WordPress & Shopify sites. Meta ads that convert.</h1>
+          <p class="lead">We build fast, modern websites and run Meta ad campaigns & social media so your business grows.</p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="plans.html">See Plans</a>
+            <a class="btn ghost" href="contact.html">Get a Quote</a>
+          </div>
+        </div>
+
+        <div class="hero-right glass hero-preview">
+          <!-- sample project thumbnails -->
+          <div class="preview-grid">
+            <div class="preview-card">
+              <img src="https://source.unsplash.com/collection/190727/600x400" alt="project 1">
+              <div class="preview-meta">E-commerce / Shopify</div>
+            </div>
+            <div class="preview-card">
+              <img src="https://source.unsplash.com/collection/190728/600x400" alt="project 2">
+              <div class="preview-meta">WordPress Portfolio</div>
+            </div>
+            <div class="preview-card">
+              <img src="https://source.unsplash.com/collection/190726/600x400" alt="project 3">
+              <div class="preview-meta">Meta Ad Creative</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / QUICK PICKS -->
+    <section class="services container">
+      <div class="glass small">
+        <h2>What we do</h2>
+        <div class="services-grid">
+          <div class="service">
+            <h3>WordPress Design</h3>
+            <p>Custom, responsive WordPress sites with clean CMS for easy updates.</p>
+          </div>
+          <div class="service">
+            <h3>Shopify Stores</h3>
+            <p>Conversion-focused product pages and theme setup for quick launch.</p>
+          </div>
+          <div class="service">
+            <h3>Meta Ads & SMM</h3>
+            <p>Campaign strategy, creatives, and social media management that scales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="section-divider"></div>
+
+    <!-- OUR PROJECTS -->
+    <section class="projects container">
+      <h2>Our Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project item -->
+        <article class="project-card glass">
+          <img src="https://source.unsplash.com/featured/?website,design" alt="project">
+          <div class="project-info">
+            <h3>Retail Shopify Launch</h3>
+            <p>Complete Shopify build, product import, and Meta launch campaign.</p>
+            <div class="tags">Shopify · Ads</div>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <img src="https://source.unsplash.com/featured/?business,website" alt="project">
+          <div class="project-info">
+            <h3>Service Company Website</h3>
+            <p>SEO-friendly WordPress site with lead capture and booking flow.</p>
+            <div class="tags">WordPress · SMM</div>
+          </div>
+        </article>
+
+        <article class="project-card glass">
+          <img src="https://source.unsplash.com/featured/?creative,agency" alt="project">
+          <div class="project-info">
+            <h3>Ad Creative & Management</h3>
+            <p>Ad creative set and 3-month scaling plan for revenue growth.</p>
+            <div class="tags">Ads · Creative</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <section class="footer-cta">
+      <div class="container glass small">
+        <div>
+          <h3>Want a custom site + ad plan?</h3>
+          <p>Tell us about your project and we’ll propose a starter plan.</p>
+        </div>
+        <div>
+          <a class="btn primary" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <strong>Syntax Lab</strong> — Web Design & Meta Ads</div>
+      <div><a href="contact.html">hello@syntaxlab.example</a></div>
+    </div>
+  </footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
